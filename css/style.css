@@ -1,9 +1,9 @@
  body {
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-     font-size: 25px;
-     color: #ffffff;
-     background: #283044;
-     margin: 20px;
+    font-size: 25px;
+    color: #ffffff;
+    background: #283044;
+    margin: 25px;
  }
 
  .skip a{
@@ -18,7 +18,7 @@
 .skip a {
   color: #000000;
   position: absolute; 
-  top: -50px;
+  top: -70px;
   left: 10px;
 }
 
@@ -32,11 +32,16 @@
 
 /* styling the nav in a separate div for js */
  .nav-container {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0 0 20px 0;
+  padding: 25px 35px 25px 0;
+  background-color: #283044;
+  box-sizing: border-box;
  }
 
 h1 {
@@ -63,7 +68,7 @@ h1 {
     width: 35px;
     height: 3px;
     background-color: #ffffff;
-    margin: 6px 0;
+    margin: 6px 15px 6px 0;
     transition: 0.4s;
   }
 
@@ -125,6 +130,10 @@ h1 {
 .change .nav-container {
   flex-direction: column;
   align-items: flex-end;
+}
+
+main {
+  margin-top: 100px;
 }
 
 /* song images */

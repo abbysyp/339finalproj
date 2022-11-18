@@ -12,4 +12,13 @@ document.querySelector('.menu_bars').addEventListener('click', function() {
     socials.classList.toggle("change")
     nav.classList.toggle("change")
     name.classList.toggle("change")
+
+    var main = document.querySelector("main")
+
+    if (main.style.display != "none") {
+        main.style.display = "none"
+    }
+    else {
+        main.style.display = "block"
+    }
 })
