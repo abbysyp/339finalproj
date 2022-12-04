@@ -6,39 +6,116 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- social media icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/font-awesome.min.css">
+    <!-- font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script">
+    <!-- icon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 </head>
-<body class="home-body">
+<body id="home-body">
     <header>
         <nav>
             <div class="skip"><a href="#main">Skip to Main Content</a></div>
-            <div class="nav-container">
-                <h1 class="name"><a href="index.html">WASIA PROJECT</a></h1>
-                <div class="menu_bars">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </div>
-                <ul class="nav_list">
-                    <li class="nav_item"><a href="listen.html">listen</a></li>
-                    <li class="nav_item"><a href="https://www.youtube.com/@wasiaproject4790">watch</a></li>
-                    <li class="nav_item"><a href="merch.html">merch</a></li>
-                    <li class="nav_item"><a href="contact.html">contact</a></li>
-                </ul>
-                <div class="socials">
-                    <a href="https://www.tiktok.com/@wasiaproject" aria-label="tiktok"><i class="fa-brands fa-tiktok"></i></a>
-                    <a href="https://www.instagram.com/wasiaproject" aria-label="instagram"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="https://mobile.twitter.com/wasia_project" aria-label="twitter"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="https://www.youtube.com/channel/UCgIjUYl5i3LDBRFPHkiLULA" aria-label="youtube"><i class="fa-brands fa-youtube"></i></a>
-                    <a href="https://open.spotify.com/artist/7poQNrOwZoUcoqihg4Xex0" aria-label="spotify"><i class="fa-brands fa-spotify"></i></a>
-                    <a href="https://soundcloud.com/user-428009828" aria-label="soundcloud"><i class="fa-brands fa-soundcloud"></i></a>
-                </div>
+            <div class="nav-container" id="home-nav">
+                <h1 class="name"><a href="index.html">Home</a></h1>
+            <div class="menu_bars">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <ul class="nav_list">
+                <li class="nav_item"><a href="buildaproblemtour.html">Dodie</a></li>
+                <li class="nav_item"><a href="sourtour.html">Olivia Rodrigo</a></li>
+                <li class="nav_item"><a href="everythingiknowaboutlovetour.html">Laufey</a></li>
+            </ul>
+            <div class="socials">
+                <a href="https://www.instagram.com/abbyysyp/?hl=en" aria-label="instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://open.spotify.com/user/abbysyp" aria-label="spotify"><i class="fa-brands fa-spotify"></i></a>
+                <a href="mailto:abbysyp@umich.edu" aria-label="instagram"><i class="fa-solid fa-envelope"></i></a>
+            </div>
             </div>
         </nav>
     </header>
     <main id="main">
+        <div id="home-about" class="about">
+            <div>
+                <h1>About Me</h1>
+            <img id="self" src="images/self_portrait.png" alt="a photo of myself">
+            </div>
+            <div>
+                <p>Hi! My name is Abby, and I'm currently a student at the University of Michigan School of Information studying UX Design. As a final project for my accessible web design & development class this semester, I decided to highlight the different concert experiences I've had this year. I've never been to concerts before 2022, so I thought it would be fun to document the few I've seen.</p>
+                <p>I'm a huge fan of music, especially pop, jazz, and folk (which you'll soon find out as you explore this site)! I also enjoy crocheting, reading, and watching sitcoms in my free time.</p>
+                <p>Thanks for reading, and it's nice to meet you!</p>
+                <div class="cd_links">
+                    <a href="https://www.instagram.com/abbyysyp/?hl=en" aria-label="instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://open.spotify.com/user/abbysyp" aria-label="spotify"><i class="fa-brands fa-spotify"></i></a>
+                    <a href="mailto:abbysyp@umich.edu" aria-label="instagram"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="home-section" class="about">
+            <h1>Featured Concerts</h1>
+            <div id="home-polaroids" class="polaroids">
+                <a href="buildaproblemtour.html"><img src="images/dodie.jpg" alt="dodie clark"></a>
+                <a href="sourtour.html"><img id="tilt-olivia-right" src="images/olivia.jpeg" alt="olivia rodrigo"></a>
+                <a href="everythingiknowaboutlovetour.html"><img src="images/laufey.jpg" alt="laufey lin"></a>
+            </div>
+        </div>
+        <div class="home-section" class="about">
+            <h1>Thanks for checking out my website! Here are some artists I'm hoping to see in the future :)</h1>
+            <div id="artists" class="polaroids">
+                <div class="artist">
+                    <a href="https://open.spotify.com/artist/1GmsPCcpKgF9OhlNXjOsbS"><img src="images/lizzymcalpine.jpg" alt="lizzy mcalpine"></a>
+                    <!-- https://djwp.s3.amazonaws.com/wp-content/uploads/2022/02/25153905/Document-Lizzy-McAlpine-4-241x300.jpg -->
+                    <p>Lizzy McAlpine</p>
+                </div>
+                <div class="artist">
+                    <a href="https://open.spotify.com/artist/5FxD8fkQZ6KcsSYupDVoSO"><img src="images/omarapollo.jpg" alt="omar apollo"></a> 
+                    <!-- source: https://www.rollingstone.com/music/music-album-reviews/omar-apollo-ivory-review-1334743/ -->
+                    <p>Omar Apollo</p>
+                </div>
+                <div class="artist">
+                    <a href="https://open.spotify.com/artist/23E65IfLBGQv0FBrMwCcG2"><img src="images/petermcpoland.PNG" alt="peter mcpoland"></a>
+                    <!-- source: https://64.media.tumblr.com/e96fb9b0b778d0ea148ff3f7ac711b67/6c750a59f19a25f2-2b/s540x810/fe93fb21fb16fdabfd5773133f1cccb2a5a4751d.png -->
+                    <p>Peter McPoland</p>
+                </div>
+                <div class="artist">
+                    <a href="https://open.spotify.com/artist/00x1fYSGhdqScXBRpSj3DW"><img src="images/oliviadean.jpg" alt="olivia dean"></a>
+                    <!-- source: https://cache.net-a-porter.com/content/images/story-body-content-v1-0-1639407434779.jpeg/w1900_q65.jpeg -->
+                    <p>Olivia Dean</p>
+                </div>
+                <div class="artist">
+                    <a href="https://open.spotify.com/artist/2hR4h1Cao2ueuI7Cx9c7V8"><img src="images/cavetown.jpg" alt="cavetown"></a>
+                    <!-- source: https://seated.imgix.net/f1df8204-477b-4c6d-a839-d3e0cc7439d5/23bd61a6-29c5-4b9c-8030-f779cbd2b132.jpg -->
+                    <p>Cavetown</p>
+                </div>
+                <div class="artist">
+                    <a href="https://open.spotify.com/artist/4tuJ0bMpJh08umKkEXKUI5"><img src="images/gracieabrams.JPG" alt="gracie abrams"></a>
+                    <!-- source: https://images.wsj.net/im-529413?width=1280&size=1 -->
+                    <p>Gracie Abrams</p>
+                </div>
+                <div class="artist">
+                    <a href="https://open.spotify.com/artist/4kIwETcbpuFgRukE8o7Opx"><img src="images/arloparks.jpg" alt="arlo parks"></a>
+                    <!-- source: https://optimise2.assets-servd.host/best-fit/production/images/Arlo_Parks_by_Parri_Thomas_for_The_Line_of_Best_Fit_web_002.jpg?w=1200&h=801&q=100&auto=format&fit=crop&dm=1642805652&s=d0373e7efe997a32445d9fa370cda65e -->
+                    <p>Arlo Parks</p>
+                </div>
+            </div>
+        </div>
     </main>
+    <footer class="footer">
+        <div class="footer_socials">
+            <a href="https://www.instagram.com/abbyysyp/?hl=en" aria-label="instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://open.spotify.com/user/abbysyp" aria-label="spotify"><i class="fa-brands fa-spotify"></i></a>
+            <a href="mailto:abbysyp@umich.edu" aria-label="instagram"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <div class="footer_info">
+            <a href="index.html">HOME / </a>
+            <a href="buildaproblemtour.html">DODIE / </a>
+            <a href="sourtour.html">OLIVIA RODRIGO / </a>
+            <a href="everythingiknowaboutlovetour.html">LAUFEY</a>
+        </div>
+    </footer>
     <script src="js/functions.js"></script>
     <script src="https://kit.fontawesome.com/139cba4b0f.js" crossorigin="anonymous"></script>
 </body>
